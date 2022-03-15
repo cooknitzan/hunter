@@ -1,0 +1,28 @@
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  overflow: hidden;
+}
+.movies {
+  overflow-x: hidden;
+}
+.cards-container {
+  margin: 0 0 50px 50px;
+  height: 400px;
+  display: flex;
+  overflow-x: scroll;
+  width: 100vw;
+  border-radius: 50px;
+  background-color: rgb(72, 73, 77);
+  overflow-y: hidden;
+}
+.home-container span {
+  height: 50px;
+  font-size: 2rem;
+  color: white;
+  margin-left: 3vw;
+  margin-right: 3vw;
+
+  width: 100vw;
+}

@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 3rem;
+  height: 6rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  color: rgba(255, 255, 255, 0.945);
+  background: #17223d;
+  padding-left: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+.letter {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .letter {
+    font-size: 0.8rem;
+  }
+}
